@@ -48,6 +48,20 @@ Exemplo: docker container create --name "mizar" hello-world
 docker rename NOME_ANTERIOR NOVO_NOME
 ```
 
+### 1.3 Iniciar um container
+
+```
+docker rename NOME_ANTERIOR NOVO_NOME
+```
+
+Há a possibilidade de usar uma opção de modo iterativo caso seja necessário, por exemplo, em containers de Linux ou bancos de dados:
+
+```
+docker start --interactive NOME_DO_CONTAINER
+docker start -i NOME_DO_CONTAINER
+```
+
+
 ### 1.5 Executar os quatro comandos anteriormente apresentados
 
 Este comando executa na verdade os seguintes outros comandos:
