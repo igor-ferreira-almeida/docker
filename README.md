@@ -44,6 +44,10 @@ docker container create --name "NOME_DO_CONTAINER" NOME_DA_IMAGEM
 Exemplo: docker container create --name "mizar" hello-world
 ```
 
+```
+docker rename NOME_ANTERIOR NOVO_NOME
+```
+
 ### 1.5 Executar os quatro comandos anteriormente apresentados
 
 Este comando executa na verdade os seguintes outros comandos:
