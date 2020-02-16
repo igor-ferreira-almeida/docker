@@ -61,6 +61,11 @@ docker start --interactive NOME_DO_CONTAINER
 docker start -i NOME_DO_CONTAINER
 ```
 
+A fim de pará-lo é necessário executar o comando:
+
+```
+docker stop NOME_DO_CONTAINER
+```
 
 ### 1.5 Executar os quatro comandos anteriormente apresentados
 
