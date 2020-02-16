@@ -20,6 +20,12 @@ docker pull IMAGEM:VERSÃO
 docker pull ubuntu:14.04
 ```
 
+Para visualizar as imagens baixadas para o seu repositório local utilize o seguinte comando:
+
+```
+docker images
+```
+
 ### 1.5 Executar os quatro comandos anteriormente apresentados
 
 Este comando executa na verdade os seguintes outros comandos:
