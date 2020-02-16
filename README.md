@@ -7,7 +7,7 @@
 ```
 docker image pull NOME_IMAGE
 
-**Exemplo:** docker image pull hello-world
+Exemplo: docker image pull hello-world
 ```
 
 Também é possível baixar uma versão específica:
@@ -15,7 +15,7 @@ Também é possível baixar uma versão específica:
 ```
 docker pull IMAGEM:VERSÃO
 
-**Exemplo:** docker pull ubuntu:14.04
+Exemplo: docker pull ubuntu:14.04
 ```
 
 Para visualizar as imagens baixadas para o seu repositório local utilize o seguinte comando:
@@ -31,7 +31,7 @@ O comando para criar um novo container recebe como base, podem existir muitos co
 ```
 docker container create NOME_IMAGE
 
-**Exemplo:** docker container create ubuntu
+Exemplo: docker container create ubuntu
 ```
 
 Ao executar esse comando é mostrado o **ID do container** (gerado automaticamente) logo em seguida
@@ -41,7 +41,7 @@ Ao executar esse comando é mostrado o **ID do container** (gerado automaticamen
 ```
 docker container create --name "NOME_DO_CONTAINER" NOME_DA_IMAGEM
 
-**Exemplo:** docker container create --name "mizar" hello-world
+Exemplo: docker container create --name "mizar" hello-world
 ```
 
 ### 1.5 Executar os quatro comandos anteriormente apresentados
@@ -58,5 +58,5 @@ docker container exec NOME_CONTAINER
 ```
 docker run NOME_IMAGE
 
-**Exemplo:** docker run hello-world
+Exemplo: docker run hello-world
 ```
