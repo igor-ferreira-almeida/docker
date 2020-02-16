@@ -11,6 +11,16 @@ docker image pull NOME_IMAGE
 docker image pull hello-world
 ```
 
+Também é possível baixar uma versão específica:
+
+```
+docker pull IMAGEM:VERSÃO
+
+// Exemplo
+docker pull ubuntu:14.04
+```
+
+
 
 ```
 docker run NOME_IMAGE
