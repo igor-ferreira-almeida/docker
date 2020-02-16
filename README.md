@@ -39,6 +39,15 @@ docker container create ubuntu
 
 Ao executar esse comando é mostrado o **ID do container** (gerado automaticamente) logo em seguida
 
+É possível dar um nome a este container no momento da criação dele:
+
+```
+docker container create --name "NOME_DO_CONTAINER" NOME_DA_IMAGEM
+
+Exemplo:
+docker container create --name "mizar" hello-world
+```
+
 ### 1.5 Executar os quatro comandos anteriormente apresentados
 
 Este comando executa na verdade os seguintes outros comandos:
