@@ -37,7 +37,7 @@ docker container create NOME_IMAGE
 docker container create ubuntu
 ```
 
-Ao executar esse comando é mostrado o ID do container (gerado automaticamente) logo em seguida
+Ao executar esse comando é mostrado o **ID do container** (gerado automaticamente) logo em seguida
 
 ### 1.5 Executar os quatro comandos anteriormente apresentados
 
