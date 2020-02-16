@@ -83,3 +83,17 @@ docker run NOME_IMAGE
 
 Exemplo: docker run hello-world
 ```
+
+### 1.6 Containers 
+
+Containers sendo executados no momento:
+
+```
+docker ps
+```
+
+Visualizar todos os containers existente:
+
+```
+docker ps -a
+```
