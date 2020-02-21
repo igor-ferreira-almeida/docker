@@ -23,6 +23,11 @@ Para visualizar as imagens baixadas para o seu repositório local utilize o segu
 ```
 docker images
 ```
+Para excluir uma imagem:
+
+```
+docker rmi NOME_DA_IMAGEM
+```
 
 ### 1.2 Criar um container 
 
