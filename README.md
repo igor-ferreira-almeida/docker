@@ -115,6 +115,8 @@ docker ps -a
 
 ### 1.7 Mapeamento de portas
 
+Rodando um novo container:
+
 ```
 docker run -p PORTA_FORA_DO_CONTAINER:PORTA_DENTRO_DO_CONTAINER CONTAINER
 ```
@@ -123,3 +125,8 @@ docker run -p PORTA_FORA_DO_CONTAINER:PORTA_DENTRO_DO_CONTAINER CONTAINER
 Exemplo: docker run -p 8080:80 nginx
 ```
 
+Criando um container e mapeando as portas
+
+````
+docker create -p 8090:80 --name "custom-nginx" nginx
+````
