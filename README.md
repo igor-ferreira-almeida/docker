@@ -112,3 +112,14 @@ Visualizar todos os containers existente:
 ```
 docker ps -a
 ```
+
+### 1.7 Mapeamento de portas
+
+```
+docker run -p PORTA_FORA_DO_CONTAINER:PORTA_DENTRO_DO_CONTAINER CONTAINER
+```
+
+```
+Exemplo: docker run -p 8080:80 nginx
+```
+
