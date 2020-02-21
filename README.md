@@ -48,6 +48,16 @@ Exemplo: docker container create --name "mizar" hello-world
 docker rename NOME_ANTERIOR NOVO_NOME
 ```
 
+#### 1.2.1 Apagar um ou mais container
+
+```
+docker rm NOME_DO_CONTAINER
+```
+
+```
+docker rm NOME_DO_CONTAINER NOME_DO_OUTRO_CONTAINER
+```
+
 ### 1.3 Iniciar um container
 
 ```
