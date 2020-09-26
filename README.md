@@ -130,3 +130,21 @@ Criando um container e mapeando as portas
 ````
 docker create -p 8090:80 --name "custom-nginx" nginx
 ````
+
+### 1.7 Mapeamento de diretórios
+
+Rodando um novo container:
+
+```
+docker run 
+```
+
+```
+Exemplo: docker run -v PATH/ARQUIVO_FORA_DO_CONTAINER:PATH/ARQUIVO_DENTRO_DO_CONTAINER CONTAINER
+```
+
+Criando um container e mapeando diretório
+
+````
+docker create -p 8090:80 -v /home/igor/html:usr/share/nginx/html --name "custom-nginx" nginx
+````
