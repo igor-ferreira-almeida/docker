@@ -66,7 +66,7 @@ docker rm NOME_DO_CONTAINER NOME_DO_OUTRO_CONTAINER
 ### 1.3 Iniciar um container
 
 ```
-docker rename NOME_ANTERIOR NOVO_NOME
+docker start NOME_DO_CONTAINER
 ```
 
 Há a possibilidade de usar uma opção de modo iterativo caso seja necessário, por exemplo, em containers de Linux ou bancos de dados:
